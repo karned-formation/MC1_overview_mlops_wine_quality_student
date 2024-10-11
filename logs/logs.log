@@ -107,3 +107,103 @@ Source-Age: 0
 2024-07-10 13:00:48,577 - custom_logger - INFO - yaml file: src\models_module_def\params.yaml loaded successfully
 2024-07-10 13:00:48,577 - custom_logger - INFO - yaml file: src\data_module_def\schema.yaml loaded successfully
 2024-07-10 13:00:48,577 - custom_logger - INFO - created directory at: models
+2024-10-11 13:52:40,044 - custom_logger - INFO - Custom logger module initialized.
+2024-10-11 13:52:42,805 - custom_logger - INFO - Parent folder: /Users/killian/Karned/Formation/MC1_overview_mlops_wine_quality_student
+2024-10-11 13:52:42,805 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-10-11 13:52:42,806 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:52:42,807 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:52:42,807 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:52:42,807 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-10-11 13:53:21,934 - custom_logger - INFO - Custom logger module initialized.
+2024-10-11 13:53:22,030 - custom_logger - INFO - Parent folder: /Users/killian/Karned/Formation/MC1_overview_mlops_wine_quality_student
+2024-10-11 13:53:22,030 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-10-11 13:53:22,031 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:53:22,031 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:53:22,032 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:53:22,032 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-10-11 13:55:43,292 - custom_logger - INFO - Custom logger module initialized.
+2024-10-11 13:57:01,125 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+2024-10-11 13:57:01,318 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+2024-10-11 13:57:01,550 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2024-10-11 13:57:01,554 - dagshub - INFO - Accessing as killiankopp
+2024-10-11 13:57:01,744 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/your_username/your_repo "HTTP/1.1 404 Not Found"
+2024-10-11 13:57:01,747 - dagshub - INFO - Repository your_repo doesn't exist, creating it under current user.
+2024-10-11 13:57:02,525 - httpx - INFO - HTTP Request: POST https://dagshub.com/api/v1/user/repos "HTTP/1.1 201 Created"
+2024-10-11 13:57:02,529 - dagshub - INFO - Initialized MLflow to track repo "your_username/your_repo"
+2024-10-11 13:57:02,530 - dagshub - INFO - Repository your_username/your_repo initialized!
+2024-10-11 13:57:22,038 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:22,039 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:22,040 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:22,041 - custom_logger - INFO - created directory at: data/raw
+2024-10-11 13:57:22,586 - custom_logger - INFO - data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5679:24B3B0:E17CEC:EB0182:670912A0
+Accept-Ranges: bytes
+Date: Fri, 11 Oct 2024 11:57:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960092-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1728647842.423411,VS0,VE163
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b32b7b1cb5738ff20423b8762bb255ec7325e09e
+Expires: Fri, 11 Oct 2024 12:02:22 GMT
+Source-Age: 0
+
+
+2024-10-11 13:57:30,769 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:30,770 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:30,771 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:30,772 - custom_logger - INFO - created directory at: data
+2024-10-11 13:57:33,974 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:33,974 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:33,975 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:33,976 - custom_logger - INFO - created directory at: data/processed
+2024-10-11 13:57:33,991 - custom_logger - INFO - Splitted data into training and test sets
+2024-10-11 13:57:33,991 - custom_logger - INFO - X_train shape: (1279, 11), y_train shape: (1279,)
+2024-10-11 13:57:33,991 - custom_logger - INFO - X_test shape: (320, 11), y_test shape: (320,)
+2024-10-11 13:57:37,644 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:37,644 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:37,645 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:37,646 - custom_logger - INFO - created directory at: models
+2024-10-11 13:57:40,368 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:40,369 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:40,370 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:40,370 - custom_logger - INFO - created directory at: metrics
+2024-10-11 13:57:50,996 - custom_logger - INFO - Custom logger module initialized.
+2024-10-11 13:57:51,093 - custom_logger - INFO - Parent folder: /Users/killian/Karned/Formation/MC1_overview_mlops_wine_quality_student
+2024-10-11 13:57:51,093 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-10-11 13:57:51,094 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 13:57:51,094 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 13:57:51,095 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 13:57:51,095 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-10-11 14:00:50,118 - custom_logger - INFO - Custom logger module initialized.
+2024-10-11 14:00:50,213 - custom_logger - INFO - Parent folder: /Users/killian/Karned/Formation/MC1_overview_mlops_wine_quality_student
+2024-10-11 14:00:50,213 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-10-11 14:00:50,214 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 14:00:50,214 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 14:00:50,215 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 14:00:50,215 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-10-11 14:00:59,730 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-10-11 14:00:59,731 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2024-10-11 14:00:59,732 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2024-10-11 14:00:59,732 - custom_logger - INFO - created directory at: metrics
