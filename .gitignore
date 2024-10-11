@@ -6,3 +6,4 @@ main.py
 data/
 */__pycache__/*
 /venv
+/dvc_data
